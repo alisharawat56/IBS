@@ -103,6 +103,10 @@ a {
     color: var(--black);
 }
 
+a:hover {
+    color: var(--red);
+}
+
 .logo {
     font-size: 3rem;
     font-weight: bold;
