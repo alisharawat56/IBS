@@ -114,46 +114,43 @@ a:hover {
 
 /* ------------/navbar----------- */
 
-/* ------------result------------ */
+/* -------------login------------ */
 
-.results {
-    height: 55vh;
-}
-
-/* -----------/result------------ */
-
-/* ------------search------------ */
-
-.search {
-    margin: auto;
-    width: 60vw;
-}
-
-.bar {
-    margin: 3rem auto;
+.card {
+    margin: 5rem auto;
+    background-color: var(--white);
+    width: fit-content;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 form {
-    height: 5rem;
-    border-radius: 15px;
-    background-color: var(--white);
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
+    margin: auto 3rem;
+    width: 25vw;
 }
 
-.input {
+.head {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    margin: 3rem auto;
+}
+
+input {
+    background-color: var(--grey);
+    padding: 5px 10px;
     border-radius: 5px;
-    height: 45px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    width: 35%;
+    width: 100%;
+    height: 3rem;
+    margin: 1rem auto ;
 }
 
-.input .icon {
-    margin: auto 10px;
-    filter: opacity(55%);
+.card form button {
+    margin: 3rem auto;
 }
 
-/* -----------/search------------ */
+/* ------------/login------------ */
