@@ -8,7 +8,7 @@
     
     <title>IBS</title>
 
-    <link rel="stylesheet" href="../stylesheets/home.css">
+    <link rel="stylesheet" href="../stylesheets/bookings.css">
 
 </head>
 <body>
@@ -20,8 +20,8 @@
             <div class="logo"><span class="red">I</span><span class="">BS</span></div>
             <div>
                 <ul class="nav-items">
-                    <li><a href="./home.html" class="nav-item red">Home</a></li>
-                    <li><a href="#" class="nav-item">Bookings</a></li>
+                    <li><a href="./home.html" class="nav-item">Home</a></li>
+                    <li><a href="#" class="nav-item red">Bookings</a></li>
                     <li><a href="./support.html" class="nav-item">Support</a></li>
                 </ul>
             </div>
@@ -35,6 +35,70 @@
         </nav>
     
         <!-- /Navbar -->
+
+        <form action="" id="container">
+            <h1 class="h-primary">BOOK Y<span class="h-primary" style="color: red;">O</span>UR </h1>
+            <h1 class="h-primary">BUS</h1>
+                    <div class="hi">
+            
+                        <!-- <label for="nu">number of busses:</label> -->
+                        <input class="hii" type="number" placeholder="number of buses" name="no of bus" id="nu">
+                        <div id="tofrom">
+                            <ul>
+                                <li>
+                                    <p class="sec" style="color: white;">Fr<span class="red">o</span>m</p>
+                                    <!-- <label for="from">from</label> -->
+                                    <input class="le" type="text" id="from" placeholder="Start point">
+                                </li>
+                                <li class="lii">
+                                    
+                                    <img class="liii" src="../assets/signboard-147412.png" alt="...........">
+                                </li>
+                                <li>
+                                    <p class="sec">T<span class="red">o</span></p>
+                                    <!-- <label for="to">to</label> -->
+                                    <input class="le" type="text" id="to" placeholder="End point">
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="datetime">
+                        <ul class="rede">
+                            <li>
+                                <!-- <label for="dep">departure</label> -->
+                                <input class="sec1" type="text" id="dep" placeholder="Departure" onfocus="(this.type='date')">
+                                <!-- <label for="tim">time</label>
+                                <input type="time" id="tim"> -->
+                            </li>
+                            <li class="hello">
+                                <!-- <label for="ret">return</label> -->
+                                <input class="sec1" type="text" id="ret" placeholder="Return" onfocus="(this.type='date')">
+                                <!-- <label for="tim">time</label>
+                                <input type="time" id="tim"> -->
+                            </li>
+                            <div id="checkbox">
+                                <ul class="che">
+                                    <li style="margin: 0px 13px;">
+                                        
+                                        <input type="checkbox" name="one" id="oneway">
+                                        <label class="la" for="oneway"> <span class="red1">O</span>ne way</label>
+                                    </li>
+                                    <li>
+                                        <input type="checkbox" name="one" id="round">
+                                        <label class="la" for="round">R<span class="red1">o</span>undtrip</label>
+                                    </li>
+                                </ul>
+                            </div>
+                                
+                            
+                        </ul>
+                    </div>
+                    <div id="sub">
+                        <input type="submit" value="Check Availability">
+                    </div>
+                   
+                </form>
         
     </section>
 

@@ -113,3 +113,116 @@ a:hover {
 }
 
 /* ------------/navbar----------- */
+
+form {
+    margin-top: 5% ;
+}
+.h-primary{
+    font-size: 2.9rem;
+}
+.sec{
+    font-size: 30px;
+}
+.sec1{
+    font-size: 20px;
+    width: 150px;
+    background-color: white;
+    border-radius: 5px;
+}
+.le{
+    background-color: white;
+    height: 40px;
+}
+.hii{
+    background-color: rgb(26, 26, 26);
+    color: rgb(138, 36, 36);
+    padding: 2px;
+    border-radius: 10px;
+    text-align: center;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.sec1::placeholder{
+    color: black;
+}
+#container h1{
+    color: white;
+}
+.hi{
+    display: flex;
+    flex-direction: column;
+    margin-top: 38px;
+}
+
+#datetime{
+    /* padding-top: 183px;
+    padding-left: 306px; */
+    margin-bottom: 38px;
+}
+#tofrom{
+    
+    margin-bottom: 37px;
+}
+.red1{
+    color: red;
+}
+.la{
+    font-size: 20px;
+}
+#tofrom ul{
+    display: flex;
+}
+#tofrom ul li{
+    padding: 0px 23px;
+}
+.rede{
+    display:flex;
+    /* padding-right: 127px; */
+}
+.che{
+display: flex;
+}
+.liii::before{
+    
+}
+#nu{
+    
+    width: 118px;
+    margin-left: 23px;
+
+}
+li.lii img{
+    padding-top: 16px;
+    width: 163px;
+    height: 83px;
+}
+#sub input{
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 3px;
+    background-color: rgba(184, 12, 12, 0.935);
+    opacity: 0.9;
+    margin: 2rem auto;
+}
+#sub input:hover{
+    font-size: 20px;
+    
+    padding: 4px;
+    background-color: black;
+    color: white;
+}
+.hello{
+    margin-right: 134px;
+    margin-left: 10px;
+}
+#checkbox label:hover{
+    color: white;
+    background-color: black;
+    border-radius: 6px;
+    padding: 2px;
+}
