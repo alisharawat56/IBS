@@ -156,4 +156,12 @@ form {
     filter: opacity(55%);
 }
 
+.two {
+    display: none;
+}
+
+.three {
+    display: none;
+}
+
 /* -----------/search------------ */
