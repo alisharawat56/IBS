@@ -79,12 +79,12 @@ nav {
     /* background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0)); */
 }
 
-.nav-items {
+.navItems {
     display: flex;
     justify-content: center;
 }
 
-.nav-links {
+.navLinks {
     display: flex;
     justify-content: end;
 }
