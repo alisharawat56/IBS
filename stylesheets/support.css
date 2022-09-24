@@ -68,12 +68,12 @@ button {
 
 /* -------------navbar----------- */
 
-nav {
+.navBar {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 3rem;
+    padding: 0.5rem 3rem;
     background-color: #ffffff;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 0px 25px;
     /* background-image: linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0)); */
@@ -82,6 +82,7 @@ nav {
 .navItems {
     display: flex;
     justify-content: center;
+    padding-left: 0rem;
 }
 
 .navLinks {
@@ -91,6 +92,7 @@ nav {
 
 ul {
     display: flex;
+    margin-bottom: 0rem;
 }
 
 li {
@@ -107,7 +109,7 @@ a:hover {
     color: var(--red);
 }
 
-.logo {
+.logos {
     font-size: 3rem;
     font-weight: bold;
 }
@@ -116,7 +118,8 @@ a:hover {
 
 /* -----------Feedback Box--------- */
 
-.feedback{
+.Feedback{
+    padding-top: 0rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -124,13 +127,28 @@ a:hover {
     font-weight: bold;
 }
 
+.choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.complaint{
+    margin: 1rem;
+}
+
+.suggestion{
+    margin: 1rem;
+    padding-left: 0.5rem;
+}
 .name{
     color: var(--red);
-    font-size: 2.5rem;
+    font-size: 1.5rem;
 }
 
 textarea {
-    margin: 3rem auto;
+    margin: 1.5rem auto 1rem;
     resize: none;
     padding: 1rem;
     border: none;
@@ -144,7 +162,7 @@ textarea {
 
 .contact{
     position: absolute;
-    bottom: 3%;
+    bottom: 1%;
     left: 40%;
     text-align: center;
     width: 20%;
