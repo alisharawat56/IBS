@@ -1,5 +1,4 @@
 
-    // $(".Feedback").hide();
         $(".feedform2").hide();
         $(".feedform3").hide();
 
@@ -7,7 +6,7 @@
     $(".complaint").click(function(){
         $(".feedform2").hide();
         $(".feedform3").hide();
-        $(".feedform1").show();
+        $(".feedform1").slideDown('slow');
     });
     
     $(".csubmit").click(function(){
@@ -18,24 +17,24 @@
     $(".feedback").click(function(){
         $(".feedform1").hide();
         $(".feedform3").hide();
-        $(".feedform2").show();
+        $(".feedform2").slideDown('slow');
     });
     
     $(".fsubmit").click(function(){
         alert("Your feedback has been resgistered \n Thank you!");
-        $("feedform1").hide();
+        $("feedform2").hide();
     });
 
 
     $(".suggestion").click(function(){
         $(".feedform2").hide();
         $(".feedform1").hide();
-        $(".feedform3").show();
+        $(".feedform3").slideDown('slow');
     });
     
     $(".ssubmit").click(function(){
         alert("Your suggestion has been registered and will be looked into \n Thank you!");
-        $("feedform1").hide();
+        $("feedform3").hide();
     });
 
 

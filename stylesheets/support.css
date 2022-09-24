@@ -119,15 +119,15 @@ a:hover {
 /* -----------Feedback Box--------- */
 
 .Feedback{
-    padding-top: 0rem;
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 70vh;
     font-weight: bold;
+    padding-top: 2rem;
 }
 
 .choice{
+    padding-top: 0.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,6 +145,7 @@ a:hover {
 .name{
     color: var(--red);
     font-size: 1.5rem;
+    border-top: 0rem;
 }
 
 textarea {
